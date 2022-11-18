@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>register here</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="hey">
+        <input type="submit" class="button" value="KGS" />
+      </div>
+
+      <h2>Register Here</h2>
+      <div class="form-container">
+        <form>
+          <div class="input-name">
+            <i class="fa fa-user lock"></i>
+            <input type="text" placeholder="first name" class="name" />
+
+            <span>
+              <i class="fa fa-user lock"></i>
+              <input type="text" placeholder="last name" class="name" />
+            </span>
+          </div>
+
+          <div class="input-name">
+            <i class="fa fa-envelope email"></i>
+            <input type="email" placeholder="email" class="text-name" />
+
+
+
+
+
+              <div class="prasun">
+            <input type="submit" class="button" value="SEND CODE" />
+          </div>
+
+
+
+
+
+
+
+
+
+                <span>
+              <i class="lolo"></i>
+              <input type="text" placeholder="enter OTP" />
+            </span>
+
+
+              <span>
+              <i class="lolo"></i>
+              <input type="text" placeholder="VALIDATE OTP" />
+            </span>
+
+
+           <div class="prasun">
+            <input type="submit" class="button" value="RESEND OTP" />
+          </div>
+
+
+
+
+          </div>
+
+          <div class="input-name">
+            <i class="fa fa-lock lock"></i>
+            <input type="password" placeholder="password" class="text-name" />
+          </div>
+
+          <div class="input-name">
+            <i class="fa fa-lock lock"></i>
+            <input
+              type="password"
+              placeholder="confirm password"
+              class="text-name"
+            />
+          </div>
+
+          <div class="input-name">
+            <select class="country">
+              <option>select a country</option>
+              <option>india</option>
+              <option>italy</option>
+              <option>USA</option>
+              <option>pakistan</option>
+            </select>
+          </div>
+
+          <form action="index.php" method="post" enctype="multipart/form-data">
+            Identity proof
+
+            <br />
+            <input type="file" name="fuResume" id="fuResume" class="proof" />
+            <br />
+            <br />
+            (Govt. ID or Passport- pdf, jpg, jpeg, png)
+          </form>
+
+          <form
+            action="index.php"
+            method="post"
+            enctype="multipart/form-data"
+            class="proof"
+          >
+            <br />
+            Address proof
+
+            <br />
+            <input type="file" name="fuResume" id="fuResume" />
+            <br />
+            <br />(Govt. ID or Passport- pdf, jpg, jpeg, png)
+          </form>
+
+          <div class="input-name">
+            <input type="checkbox" class="check-button" />
+            <label>I agree to the Terms of Agreement</label>
+          </div>
+
+          <div class="input-name">
+            <input type="submit" class="button" value="sign up" />
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
